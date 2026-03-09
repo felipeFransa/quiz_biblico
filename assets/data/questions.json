@@ -1,0 +1,556 @@
+[
+  {
+    "question": "Quem foi o primeiro homem criado por Deus?",
+    "options": ["Adão", "Abel", "Noé", "Abraão"],
+    "correctIndex": 0,
+    "explanation": "Adão foi o primeiro ser humano criado por Deus, conforme Gênesis 2:7.",
+    "difficulty": "easy",
+    "category": "oldTestament"
+  },
+  {
+    "question": "Quantos dias e noites durou o dilúvio que Noé enfrentou?",
+    "options": [
+      "20 dias e noites",
+      "40 dias e noites",
+      "60 dias e noites",
+      "7 dias e noites"
+    ],
+    "correctIndex": 1,
+    "explanation": "A chuva durou 40 dias e 40 noites, conforme Gênesis 7:12.",
+    "difficulty": "easy",
+    "category": "oldTestament"
+  },
+  {
+    "question": "Qual é o primeiro livro da Bíblia?",
+    "options": ["Êxodo", "Deuteronômio", "Gênesis", "Levítico"],
+    "correctIndex": 2,
+    "explanation": "Gênesis é o primeiro livro da Bíblia e narra a criação do mundo.",
+    "difficulty": "easy",
+    "category": "oldTestament"
+  },
+  {
+    "question": "Quantos anos viveu Matusalém, o homem mais velho registrado na Bíblia?",
+    "options": ["800 anos", "900 anos", "969 anos", "999 anos"],
+    "correctIndex": 2,
+    "explanation": "Matusalém viveu 969 anos, conforme Gênesis 5:27.",
+    "difficulty": "medium",
+    "category": "oldTestament"
+  },
+  {
+    "question": "Em qual monte Moisés recebeu os Dez Mandamentos?",
+    "options": ["Monte Carmelo", "Monte Sião", "Monte Sinai", "Monte Horebe"],
+    "correctIndex": 2,
+    "explanation": "Moisés recebeu os Dez Mandamentos no Monte Sinai, conforme Êxodo 19-20.",
+    "difficulty": "easy",
+    "category": "oldTestament"
+  },
+  {
+    "question": "Quem escreveu a maioria dos Salmos?",
+    "options": ["Salomão", "Moisés", "Davi", "Asafe"],
+    "correctIndex": 2,
+    "explanation": "A maioria dos Salmos (73 de 150) é atribuída ao rei Davi.",
+    "difficulty": "easy",
+    "category": "oldTestament"
+  },
+  {
+    "question": "Qual profeta foi engolido por um grande peixe?",
+    "options": ["Amós", "Jonas", "Naum", "Habacuque"],
+    "correctIndex": 1,
+    "explanation": "Jonas foi engolido por um grande peixe após tentar fugir de Deus, conforme Jonas 1:17.",
+    "difficulty": "easy",
+    "category": "oldTestament"
+  },
+  {
+    "question": "O que Deus criou no quarto dia da criação?",
+    "options": [
+      "Peixes e aves",
+      "Animais terrestres",
+      "Sol, lua e estrelas",
+      "O céu e a terra"
+    ],
+    "correctIndex": 2,
+    "explanation": "No quarto dia, Deus criou as luminárias: o sol, a lua e as estrelas (Gênesis 1:14-19).",
+    "difficulty": "medium",
+    "category": "oldTestament"
+  },
+  {
+    "question": "Qual era o nome da esposa de Abraão?",
+    "options": ["Rebeca", "Sara", "Raquel", "Lea"],
+    "correctIndex": 1,
+    "explanation": "A esposa de Abraão chamava-se Sara (antes chamada Sarai), conforme Gênesis 17:15.",
+    "difficulty": "easy",
+    "category": "oldTestament"
+  },
+  {
+    "question": "Quantos filhos Jacó teve?",
+    "options": ["10", "11", "12", "13"],
+    "correctIndex": 2,
+    "explanation": "Jacó teve 12 filhos, que se tornaram os patriarcas das 12 tribos de Israel.",
+    "difficulty": "medium",
+    "category": "oldTestament"
+  },
+
+  {
+    "question": "Qual é o primeiro livro do Novo Testamento?",
+    "options": ["Marcos", "Lucas", "João", "Mateus"],
+    "correctIndex": 3,
+    "explanation": "O Evangelho de Mateus é o primeiro livro do Novo Testamento.",
+    "difficulty": "easy",
+    "category": "newTestament"
+  },
+  {
+    "question": "Quantos discípulos Jesus escolheu?",
+    "options": ["7", "10", "12", "14"],
+    "correctIndex": 2,
+    "explanation": "Jesus escolheu 12 discípulos, também chamados de apóstolos, conforme Lucas 6:13.",
+    "difficulty": "easy",
+    "category": "newTestament"
+  },
+  {
+    "question": "Em qual cidade Jesus nasceu?",
+    "options": ["Nazaré", "Jerusalém", "Belém", "Cafarnaum"],
+    "correctIndex": 2,
+    "explanation": "Jesus nasceu em Belém de Judá, conforme Mateus 2:1 e Lucas 2:4-7.",
+    "difficulty": "easy",
+    "category": "newTestament"
+  },
+  {
+    "question": "Quem batizou Jesus?",
+    "options": ["Pedro", "Paulo", "João Batista", "André"],
+    "correctIndex": 2,
+    "explanation": "João Batista batizou Jesus no rio Jordão, conforme Mateus 3:13-17.",
+    "difficulty": "easy",
+    "category": "newTestament"
+  },
+  {
+    "question": "Qual apóstolo negou Jesus três vezes?",
+    "options": ["Tomé", "Judas", "Pedro", "João"],
+    "correctIndex": 2,
+    "explanation": "Pedro negou conhecer Jesus três vezes antes do galo cantar, conforme Lucas 22:54-62.",
+    "difficulty": "easy",
+    "category": "newTestament"
+  },
+  {
+    "question": "Quanto tempo Jesus ficou no deserto sendo tentado?",
+    "options": ["7 dias", "20 dias", "30 dias", "40 dias"],
+    "correctIndex": 3,
+    "explanation": "Jesus ficou 40 dias no deserto sendo tentado pelo diabo, conforme Mateus 4:1-2.",
+    "difficulty": "easy",
+    "category": "newTestament"
+  },
+  {
+    "question": "Qual é o último livro da Bíblia?",
+    "options": ["Judas", "2 Pedro", "Apocalipse", "3 João"],
+    "correctIndex": 2,
+    "explanation": "O Apocalipse (ou Revelação), escrito por João, é o último livro da Bíblia.",
+    "difficulty": "easy",
+    "category": "newTestament"
+  },
+  {
+    "question": "Qual discípulo traiu Jesus por 30 moedas de prata?",
+    "options": ["Bartolomeu", "Simão", "Judas Iscariotes", "Tadeu"],
+    "correctIndex": 2,
+    "explanation": "Judas Iscariotes entregou Jesus às autoridades por 30 moedas de prata (Mateus 26:14-15).",
+    "difficulty": "easy",
+    "category": "newTestament"
+  },
+  {
+    "question": "Qual milagre está registrado em todos os quatro Evangelhos?",
+    "options": [
+      "Transformação da água em vinho",
+      "Multiplicação dos pães e peixes",
+      "Ressurreição de Lázaro",
+      "Cura do cego de nascença"
+    ],
+    "correctIndex": 1,
+    "explanation": "A multiplicação dos pães e peixes é o único milagre registrado nos quatro Evangelhos (Mt, Mc, Lc, Jo).",
+    "difficulty": "hard",
+    "category": "newTestament"
+  },
+  {
+    "question": "Quem escreveu a maioria das epístolas do Novo Testamento?",
+    "options": ["João", "Pedro", "Paulo", "Tiago"],
+    "correctIndex": 2,
+    "explanation": "O apóstolo Paulo escreveu 13 das 27 cartas/epístolas do Novo Testamento.",
+    "difficulty": "medium",
+    "category": "newTestament"
+  },
+
+  {
+    "question": "Quem era o pai de José, que tinha a túnica de muitas cores?",
+    "options": ["Abraão", "Isaque", "Jacó", "Davi"],
+    "correctIndex": 2,
+    "explanation": "Jacó (Israel) era o pai de José e lhe deu uma túnica de muitas cores (Gênesis 37:3).",
+    "difficulty": "easy",
+    "category": "characters"
+  },
+  {
+    "question": "Quem era o maior guerreiro filisteu derrotado por Davi?",
+    "options": ["Saul", "Golias", "Baraque", "Sansão"],
+    "correctIndex": 1,
+    "explanation": "Golias era o gigante filisteu derrotado pelo jovem Davi com uma funda e uma pedra (1 Samuel 17).",
+    "difficulty": "easy",
+    "category": "characters"
+  },
+  {
+    "question": "A que tribo de Israel pertencia o apóstolo Paulo?",
+    "options": ["Dã", "Judá", "Benjamim", "Levi"],
+    "correctIndex": 2,
+    "explanation": "Paulo era da tribo de Benjamim, como ele mesmo afirma em Filipenses 3:5.",
+    "difficulty": "hard",
+    "category": "characters"
+  },
+  {
+    "question": "Quem foi o primeiro rei de Israel?",
+    "options": ["Davi", "Salomão", "Saul", "Jeroboão"],
+    "correctIndex": 2,
+    "explanation": "Saul foi o primeiro rei de Israel, ungido pelo profeta Samuel (1 Samuel 10).",
+    "difficulty": "easy",
+    "category": "characters"
+  },
+  {
+    "question": "Quem era o sogro de Moisés?",
+    "options": ["Arão", "Jetro", "Faraó", "Amrão"],
+    "correctIndex": 1,
+    "explanation": "Jetro, sacerdote de Midiã, era o sogro de Moisés (Êxodo 3:1; 18:1).",
+    "difficulty": "medium",
+    "category": "characters"
+  },
+  {
+    "question": "Qual personagem bíblico é conhecido por sua extrema paciência diante do sofrimento?",
+    "options": ["Jeremias", "Habacuque", "Jó", "Isaías"],
+    "correctIndex": 2,
+    "explanation": "Jó é o símbolo da paciência e perseverança diante do sofrimento extremo.",
+    "difficulty": "easy",
+    "category": "characters"
+  },
+  {
+    "question": "Quem construiu a Arca da Aliança?",
+    "options": ["Moisés", "Salomão", "Bezalel", "Arão"],
+    "correctIndex": 2,
+    "explanation": "Bezalel, artesão escolhido por Deus, construiu a Arca da Aliança (Êxodo 37:1).",
+    "difficulty": "hard",
+    "category": "characters"
+  },
+  {
+    "question": "Quem substituiu Judas Iscariotes entre os apóstolos?",
+    "options": ["Paulo", "Barnabé", "Matias", "Estêvão"],
+    "correctIndex": 2,
+    "explanation": "Matias foi escolhido por sorteio para substituir Judas Iscariotes (Atos 1:26).",
+    "difficulty": "hard",
+    "category": "characters"
+  },
+  {
+    "question": "Qual era o nome hebraico do apóstolo Paulo antes de sua conversão?",
+    "options": ["Barnabé", "Saulo", "Simão", "Timóteo"],
+    "correctIndex": 1,
+    "explanation": "Antes de sua conversão, Paulo era chamado de Saulo de Tarso (Atos 9:1).",
+    "difficulty": "medium",
+    "category": "characters"
+  },
+
+  {
+    "question": "Qual foi o primeiro milagre de Jesus registrado no Evangelho de João?",
+    "options": [
+      "Cura de um cego",
+      "Ressurreição de Lázaro",
+      "Transformação da água em vinho",
+      "Multiplicação dos pães"
+    ],
+    "correctIndex": 2,
+    "explanation": "Jesus transformou água em vinho nas bodas de Caná, seu primeiro milagre (João 2:1-11).",
+    "difficulty": "easy",
+    "category": "miracles"
+  },
+  {
+    "question": "Quantas pessoas foram alimentadas com 5 pães e 2 peixes?",
+    "options": ["2.000", "3.000", "4.000", "5.000"],
+    "correctIndex": 3,
+    "explanation": "Cerca de 5.000 homens foram alimentados com 5 pães e 2 peixes (Mateus 14:21), além de mulheres e crianças.",
+    "difficulty": "medium",
+    "category": "miracles"
+  },
+  {
+    "question": "Qual profeta do Antigo Testamento ressuscitou o filho da viúva de Sarepta?",
+    "options": ["Eliseu", "Elias", "Isaías", "Jeremias"],
+    "correctIndex": 1,
+    "explanation": "Elias ressuscitou o filho da viúva de Sarepta (1 Reis 17:17-24).",
+    "difficulty": "medium",
+    "category": "miracles"
+  },
+  {
+    "question": "Quantos dias Lázaro estava morto quando Jesus o ressuscitou?",
+    "options": ["1 dia", "2 dias", "3 dias", "4 dias"],
+    "correctIndex": 3,
+    "explanation": "Lázaro estava morto há 4 dias quando Jesus o ressuscitou (João 11:39).",
+    "difficulty": "medium",
+    "category": "miracles"
+  },
+  {
+    "question": "Quem caminhou sobre as águas juntamente com Jesus?",
+    "options": ["João", "Tiago", "Pedro", "André"],
+    "correctIndex": 2,
+    "explanation": "Pedro caminhou sobre as águas indo ao encontro de Jesus (Mateus 14:28-29).",
+    "difficulty": "easy",
+    "category": "miracles"
+  },
+  {
+    "question": "Qual milagre Eliseu realizou com o óleo da viúva?",
+    "options": [
+      "Transformou óleo em água",
+      "Multiplicou o óleo milagrosamente",
+      "Curou o filho da viúva com óleo",
+      "Alimentou a multidão com óleo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eliseu fez o óleo da viúva se multiplicar miraculosamente para salvar seus filhos (2 Reis 4:1-7).",
+    "difficulty": "hard",
+    "category": "miracles"
+  },
+  {
+    "question": "O que aconteceu ao sol durante a crucificação de Jesus?",
+    "options": [
+      "Virou sangue",
+      "Ficou escuro por 3 horas",
+      "Brilhou mais forte",
+      "Não se moveu por horas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Durante a crucificação houve trevas em toda a terra por três horas (Lucas 23:44).",
+    "difficulty": "medium",
+    "category": "miracles"
+  },
+  {
+    "question": "Qual milagre Elias realizou no Monte Carmelo?",
+    "options": [
+      "Ressuscitou um morto",
+      "Chamou fogo do céu",
+      "Dividiu o rio Jordão",
+      "Multiplicou pães"
+    ],
+    "correctIndex": 1,
+    "explanation": "Elias chamou fogo do céu que consumiu o sacrifício no desafio contra os profetas de Baal (1 Reis 18:38).",
+    "difficulty": "medium",
+    "category": "miracles"
+  },
+
+  {
+    "question": "Qual profeta ficou famoso por suas visões da roda e dos ossos secos?",
+    "options": ["Daniel", "Isaías", "Ezequiel", "Jeremias"],
+    "correctIndex": 2,
+    "explanation": "Ezequiel teve visões do carro-trono de Deus (Ez 1) e do vale dos ossos secos (Ez 37).",
+    "difficulty": "medium",
+    "category": "prophets"
+  },
+  {
+    "question": "Qual profeta previu o nascimento virginal de Jesus?",
+    "options": ["Jeremias", "Isaías", "Miquéias", "Zacarias"],
+    "correctIndex": 1,
+    "explanation": "Isaías profetizou: 'A virgem conceberá e dará à luz um filho' (Isaías 7:14).",
+    "difficulty": "medium",
+    "category": "prophets"
+  },
+  {
+    "question": "Qual profeta foi chamado de 'o profeta choroso'?",
+    "options": ["Miquéias", "Amós", "Jeremias", "Oséias"],
+    "correctIndex": 2,
+    "explanation": "Jeremias é conhecido como 'o profeta choroso' por suas lamentações pelo destino de Judá.",
+    "difficulty": "medium",
+    "category": "prophets"
+  },
+  {
+    "question": "Por quantos anos o profeta Daniel serviu em Babilônia e Pérsia?",
+    "options": ["30 anos", "40 anos", "60 anos", "Mais de 70 anos"],
+    "correctIndex": 3,
+    "explanation": "Daniel serviu desde o reinado de Nabucodonosor até o de Ciro, um período de mais de 70 anos.",
+    "difficulty": "hard",
+    "category": "prophets"
+  },
+  {
+    "question": "Qual profeta casou com uma mulher prostituta por ordem de Deus para ilustrar a infidelidade de Israel?",
+    "options": ["Amós", "Oséias", "Naum", "Malaquias"],
+    "correctIndex": 1,
+    "explanation": "Oséias casou com Gômer por ordem divina, como símbolo da relação de Israel com Deus (Oséias 1:2-3).",
+    "difficulty": "hard",
+    "category": "prophets"
+  },
+  {
+    "question": "Qual profeta foi levado ao céu num carro de fogo?",
+    "options": ["Enoque", "Moisés", "Elias", "Eliseu"],
+    "correctIndex": 2,
+    "explanation": "Elias foi arrebatado ao céu num carro de fogo com cavalos de fogo (2 Reis 2:11).",
+    "difficulty": "easy",
+    "category": "prophets"
+  },
+  {
+    "question": "Qual profeta profetizou que o Messias nasceria em Belém?",
+    "options": ["Isaías", "Miquéias", "Zacarias", "Daniel"],
+    "correctIndex": 1,
+    "explanation": "Miquéias profetizou que o governante de Israel sairia de Belém (Miquéias 5:2).",
+    "difficulty": "hard",
+    "category": "prophets"
+  },
+  {
+    "question": "Qual profeta foi chamado quando ainda era criança e ouvia a voz de Deus à noite?",
+    "options": ["Jeremias", "Samuel", "Oséias", "Joel"],
+    "correctIndex": 1,
+    "explanation": "O jovem Samuel ouviu a voz de Deus três vezes à noite e foi orientado pelo sacerdote Eli (1 Samuel 3).",
+    "difficulty": "easy",
+    "category": "prophets"
+  },
+
+  {
+    "question": "Qual mulher da Bíblia era conhecida por sua lealdade à sogra Noemi?",
+    "options": ["Orpá", "Rute", "Débora", "Ester"],
+    "correctIndex": 1,
+    "explanation": "Rute é famosa por sua lealdade a Noemi, dizendo: 'Para onde você for eu irei' (Rute 1:16).",
+    "difficulty": "easy",
+    "category": "women"
+  },
+  {
+    "question": "Qual mulher salvou o povo judeu da morte ao se tornar rainha da Pérsia?",
+    "options": ["Débora", "Judit", "Rute", "Ester"],
+    "correctIndex": 3,
+    "explanation": "Ester tornou-se rainha da Pérsia e corajosamente intercedeu pelo povo judeu (Livro de Ester).",
+    "difficulty": "easy",
+    "category": "women"
+  },
+  {
+    "question": "Qual profetisa liderou Israel depois de Moisés e Josué, como juíza e guerreira?",
+    "options": ["Miriã", "Hulda", "Débora", "Ana"],
+    "correctIndex": 2,
+    "explanation": "Débora era profetisa e juíza de Israel, que liderou a vitória contra Sísara (Juízes 4-5).",
+    "difficulty": "medium",
+    "category": "women"
+  },
+  {
+    "question": "Qual mulher ungiu os pés de Jesus com um perfume caríssimo?",
+    "options": ["Maria Madalena", "Maria de Betânia", "Marta", "Salomé"],
+    "correctIndex": 1,
+    "explanation": "Maria de Betânia ungiu os pés de Jesus com nardo puro caríssimo (João 12:3).",
+    "difficulty": "medium",
+    "category": "women"
+  },
+  {
+    "question": "Qual mulher foi a primeira a ver Jesus ressuscitado?",
+    "options": ["Maria, mãe de Jesus", "Marta", "Maria Madalena", "Joana"],
+    "correctIndex": 2,
+    "explanation": "Maria Madalena foi a primeira pessoa a ver Jesus ressuscitado (João 20:14-16).",
+    "difficulty": "medium",
+    "category": "women"
+  },
+  {
+    "question": "Qual mulher do Antigo Testamento era mãe de Samuel?",
+    "options": ["Débora", "Raquel", "Ana", "Lea"],
+    "correctIndex": 2,
+    "explanation": "Ana era estéril e clamou a Deus por um filho; Deus a ouviu e ela concebeu Samuel (1 Samuel 1).",
+    "difficulty": "medium",
+    "category": "women"
+  },
+  {
+    "question": "Qual mulher ajudou os espias israelitas em Jericó?",
+    "options": ["Dalila", "Raabe", "Rute", "Zípora"],
+    "correctIndex": 1,
+    "explanation": "Raabe, a prostituta de Jericó, escondeu os espias de Josué e recebeu proteção (Josué 2).",
+    "difficulty": "medium",
+    "category": "women"
+  },
+  {
+    "question": "Qual era o nome da sogra de Rute?",
+    "options": ["Ester", "Noemi", "Débora", "Miriam"],
+    "correctIndex": 1,
+    "explanation": "Noemi era a sogra de Rute, quem Rute seguiu de Moabe de volta para Belém (Rute 1).",
+    "difficulty": "easy",
+    "category": "women"
+  },
+
+  {
+    "question": "Na parábola do Filho Pródigo, com o que o filho retorna ao pai?",
+    "options": [
+      "Com riquezas acumuladas",
+      "Arrependido e humilde",
+      "Com uma esposa",
+      "Com servos"
+    ],
+    "correctIndex": 1,
+    "explanation": "O filho retorna ao pai completamente arrependido, pedindo para ser apenas um servo (Lucas 15:18-19).",
+    "difficulty": "easy",
+    "category": "parables"
+  },
+  {
+    "question": "Na parábola do Bom Samaritano, o que o samaritano fez pelo homem ferido?",
+    "options": [
+      "Chamou outros para ajudar",
+      "Passou por ele sem parar",
+      "Cuidou dele e pagou sua hospedagem",
+      "Levou-o ao templo"
+    ],
+    "correctIndex": 2,
+    "explanation": "O samaritano tratou os ferimentos, colocou-o em seu animal, levou a uma estalagem e pagou pelos cuidados (Lucas 10:34-35).",
+    "difficulty": "easy",
+    "category": "parables"
+  },
+  {
+    "question": "Na parábola dos Talentos, o servo que recebeu 5 talentos quanto entregou ao senhor?",
+    "options": ["5 talentos", "7 talentos", "10 talentos", "15 talentos"],
+    "correctIndex": 2,
+    "explanation": "O servo que recebeu 5 talentos ganhou mais 5, entregando 10 ao senhor (Mateus 25:20).",
+    "difficulty": "medium",
+    "category": "parables"
+  },
+  {
+    "question": "Na parábola do Semeador, o que representa a semente que caiu na boa terra?",
+    "options": [
+      "Os incrédulos",
+      "Os que ouvem e entendem a Palavra de Deus",
+      "Os que endurecem o coração",
+      "Os líderes religiosos"
+    ],
+    "correctIndex": 1,
+    "explanation": "A semente na boa terra representa quem ouve e entende a Palavra, produzindo frutos (Mateus 13:23).",
+    "difficulty": "medium",
+    "category": "parables"
+  },
+  {
+    "question": "Na parábola das 10 Virgens, quantas eram sábias?",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 2,
+    "explanation": "Das 10 virgens, 5 eram sábias (levaram óleo extra) e 5 eram tolas (Mateus 25:2).",
+    "difficulty": "easy",
+    "category": "parables"
+  },
+  {
+    "question": "Na parábola da Ovelha Perdida, quantas ovelhas o pastor tinha?",
+    "options": ["10", "50", "99", "100"],
+    "correctIndex": 3,
+    "explanation": "O pastor tinha 100 ovelhas, deixou 99 e foi buscar a 1 que estava perdida (Lucas 15:4).",
+    "difficulty": "easy",
+    "category": "parables"
+  },
+  {
+    "question": "Qual é o tema central da parábola do Fariseu e do Publicano?",
+    "options": [
+      "A importância do dízimo",
+      "A humildade na oração versus o orgulho",
+      "A corrupção dos líderes religiosos",
+      "A justiça divina"
+    ],
+    "correctIndex": 1,
+    "explanation": "A parábola contrasta a oração orgulhosa do fariseu com a oração humilde do publicano (Lucas 18:9-14).",
+    "difficulty": "medium",
+    "category": "parables"
+  },
+  {
+    "question": "Na parábola do Rico e Lázaro, onde foi Lázaro após a morte?",
+    "options": [
+      "Ao paraíso junto de Abraão",
+      "Ao purgatório",
+      "A um lugar de sombras",
+      "De volta ao mundo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lázaro, o mendigo, foi levado pelos anjos ao seio (paraíso) de Abraão após sua morte (Lucas 16:22).",
+    "difficulty": "medium",
+    "category": "parables"
+  }
+]
