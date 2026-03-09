@@ -1,66 +1,43 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:provider/provider.dart';
-import 'core/theme/app_theme.dart';
-import 'data/repositories/question_repository.dart';
-import 'providers/quiz_provider.dart';
-import 'providers/stats_provider.dart';
-import 'providers/settings_provider.dart';
-import 'providers/ads_provider.dart';
-import 'screens/home/home_screen.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'features/settings/providers/settings_provider.dart';
+import 'features/home/presentation/main_screen.dart';
+import 'shared/themes/theme_config.dart';
+import 'core/ads/ad_service.dart';
 
-Future<void> main() async {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
-  // Lock orientation to portrait
-  await SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-    DeviceOrientation.portraitDown,
-  ]);
-
-  // Set system UI style
-  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-    statusBarColor: Colors.transparent,
-    statusBarIconBrightness: Brightness.light,
-  ));
-
-  // Pre-load questions
-  await QuestionRepository.instance.load();
-
-  // Initialize providers
-  final settingsProvider = SettingsProvider();
-  final statsProvider = StatsProvider();
-  final adsProvider = AdsProvider();
-
-  await Future.wait([
-    settingsProvider.load(),
-    statsProvider.load(),
-    adsProvider.initialize(),
-  ]);
+  
+  final prefs = await SharedPreferences.getInstance();
+  await AdService().init();
 
   runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider.value(value: settingsProvider),
-        ChangeNotifierProvider.value(value: statsProvider),
-        ChangeNotifierProvider.value(value: adsProvider),
-        ChangeNotifierProvider(create: (_) => QuizProvider()),
+    ProviderScope(
+      overrides: [
+        sharedPrefsProvider.overrideWithValue(prefs),
       ],
-      child: const BibleQuizApp(),
+      child: const BibliaQuizApp(),
     ),
   );
 }
 
-class BibleQuizApp extends StatelessWidget {
-  const BibleQuizApp({super.key});
+class BibliaQuizApp extends ConsumerWidget {
+  const BibliaQuizApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final userState = ref.watch(settingsProvider);
+    final themePalette = ThemeConfig.getTheme(userState.currentThemeId);
+
     return MaterialApp(
-      title: 'Bible Quiz',
+      title: 'Bíblia Quiz',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.darkTheme,
-      home: const HomeScreen(),
+      theme: ThemeConfig.createThemeData(themePalette).copyWith(
+        textTheme: GoogleFonts.latoTextTheme(Theme.of(context).textTheme),
+      ),
+      home: const MainScreen(),
     );
   }
 }

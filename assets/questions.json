@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "text": "Quem construiu a arca?",
+    "correctAnswer": "Noé",
+    "options": ["Noé", "Moisés", "Abraão", "Davi"],
+    "category": "Antigo Testamento",
+    "difficulty": "easy",
+    "reference": "Gênesis 6:14",
+    "explanation": "Noé foi instruído por Deus a construir uma arca para salvar sua família e os animais do dilúvio."
+  },
+  {
+    "id": 2,
+    "text": "Qual o primeiro livro da Bíblia?",
+    "correctAnswer": "Gênesis",
+    "options": ["Êxodo", "Gênesis", "Levítico", "Mateus"],
+    "category": "Antigo Testamento",
+    "difficulty": "easy",
+    "reference": "Gênesis 1:1",
+    "explanation": "Gênesis é o livro das origens, narrando a criação do mundo e do homem."
+  },
+  {
+    "id": 3,
+    "text": "Quem foi o homem mais forte da Bíblia?",
+    "correctAnswer": "Sansão",
+    "options": ["Davi", "Golias", "Sansão", "Salomão"],
+    "category": "Antigo Testamento",
+    "difficulty": "medium",
+    "reference": "Juízes 13-16",
+    "explanation": "Sansão era um juiz de Israel conhecido por sua força sobrenatural dada por Deus."
+  },
+  {
+    "id": 4,
+    "text": "Quantos discípulos Jesus escolheu?",
+    "correctAnswer": "12",
+    "options": ["10", "12", "7", "40"],
+    "category": "Novo Testamento",
+    "difficulty": "easy",
+    "reference": "Mateus 10:1",
+    "explanation": "Jesus escolheu doze homens para serem Seus apóstolos e mensageiros."
+  },
+  {
+    "id": 5,
+    "text": "Quem traiu Jesus por 30 moedas de prata?",
+    "correctAnswer": "Judas Iscariotes",
+    "options": ["Pedro", "João", "Judas Iscariotes", "Tomé"],
+    "category": "Novo Testamento",
+    "difficulty": "easy",
+    "reference": "Mateus 26:15",
+    "explanation": "Judas Iscariotes foi o discípulo que entregou Jesus aos líderes religiosos."
+  }
+]

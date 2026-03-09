@@ -9,15 +9,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  provider: ^6.1.2
-  shared_preferences: ^2.3.2
-  google_mobile_ads: ^5.1.0
-  flutter_animate: ^4.5.0
+  flutter_riverpod: ^3.0.0-dev.0
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  shared_preferences: ^2.2.2
+  google_mobile_ads: ^5.2.0
+  confetti: ^0.7.0
+  share_plus: ^10.1.0
+  flutter_tts: ^4.0.2
+  audioplayers: ^6.0.0
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
   flutter_launcher_icons: ^0.13.1
 
 flutter_launcher_icons:
@@ -30,4 +38,6 @@ flutter_launcher_icons:
 flutter:
   uses-material-design: true
   assets:
-    - assets/data/questions.json
+    - assets/questions.json
+    - assets/data/bible_acf.json
+    - assets/audio/
