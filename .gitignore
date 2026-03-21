@@ -43,3 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Development artifacts
+blocos/
+assets/questions_backup.json
+prompt_quiz_biblico.md

@@ -22,7 +22,7 @@ class DatabaseService {
     String path = join(await getDatabasesPath(), 'quiz_biblico.db');
     return await openDatabase(
       path,
-      version: 2,
+      version: 4,
       onCreate: _onCreate,
       onUpgrade: _onUpgrade,
     );
@@ -67,8 +67,8 @@ class DatabaseService {
   }
 
   Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
-    if (oldVersion < 2) {
-      // Forçar recarregamento de perguntas se for uma versão antiga
+    if (oldVersion < 4) {
+      // Forçar recarregamento de perguntas para incluir o novo banco massivo (200 questões)
       await db.delete('questions');
       await _preloadQuestions(db);
     }
@@ -117,7 +117,7 @@ class DatabaseService {
     }
   }
 
-  Future<List<Question>> getQuestionsByCategory(String category, {int limit = 5}) async {
+  Future<List<Question>> getQuestionsByCategory(String category, {int limit = 10}) async {
     final db = await database;
     final List<Map<String, dynamic>> maps = await db.query(
       'questions',

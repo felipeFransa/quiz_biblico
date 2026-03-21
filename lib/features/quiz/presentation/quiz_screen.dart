@@ -45,9 +45,17 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
     final question = session.currentQuestion!;
 
     return Scaffold(
-      backgroundColor: theme.colorScheme.surface,
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
-        title: Text('${session.currentIndex + 1} de ${session.questions.length}'),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        title: Text(
+          '${session.currentIndex + 1} de ${session.questions.length}',
+          style: theme.textTheme.titleMedium?.copyWith(
+            fontWeight: FontWeight.w900,
+            color: theme.primaryColor,
+          ),
+        ),
         leading: IconButton(
           icon: const Icon(Icons.close_rounded),
           onPressed: () => Navigator.pop(context),
@@ -57,17 +65,24 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
             padding: const EdgeInsets.only(right: 16.0),
             child: Center(
               child: Container(
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
                 decoration: BoxDecoration(
-                  color: theme.primaryColor.withValues(alpha: 0.1),
-                  borderRadius: BorderRadius.circular(20),
+                  color: AppTheme.divineGold.withValues(alpha: 0.15),
+                  borderRadius: BorderRadius.circular(30),
+                  border: Border.all(color: AppTheme.divineGold.withValues(alpha: 0.3)),
                 ),
-                child: Text(
-                  '${session.score} acertos',
-                  style: theme.textTheme.labelMedium?.copyWith(
-                    color: theme.primaryColor,
-                    fontWeight: FontWeight.bold,
-                  ),
+                child: Row(
+                  children: [
+                    Icon(Icons.stars_rounded, color: AppTheme.divineGold, size: 16),
+                    const SizedBox(width: 6),
+                    Text(
+                      '${session.score}',
+                      style: theme.textTheme.labelMedium?.copyWith(
+                        color: AppTheme.primaryBlue,
+                        fontWeight: FontWeight.w900,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
@@ -76,25 +91,26 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
       ),
       body: Stack(
         children: [
-          // Sacred Watermark
+          // Celestial background gradient
+          Container(decoration: AppTheme.celestialDecoration),
+
+          // Subtle golden watermark (Consistent with Home)
           Positioned(
-            bottom: -50,
-            right: -50,
+            top: -40,
+            right: -60,
             child: Opacity(
-              opacity: 0.03,
-              child: Transform.rotate(
-                angle: -0.2,
-                child: const Icon(
-                  Icons.auto_awesome_rounded,
-                  size: 300,
-                  color: AppTheme.divineGold,
-                ),
+              opacity: 0.04,
+              child: Icon(
+                Icons.auto_awesome,
+                size: 320,
+                color: AppTheme.divineGold,
               ),
             ),
           ),
           
           Column(
             children: [
+              const SizedBox(height: kToolbarHeight + 40),
               // Styled Progress Bar
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 8),
@@ -102,9 +118,9 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                   borderRadius: BorderRadius.circular(10),
                   child: LinearProgressIndicator(
                     value: (session.currentIndex + 1) / session.questions.length,
-                    minHeight: 8,
-                    valueColor: AlwaysStoppedAnimation<Color>(theme.primaryColor),
-                    backgroundColor: theme.colorScheme.outline.withValues(alpha: 0.5),
+                    minHeight: 10,
+                    valueColor: const AlwaysStoppedAnimation<Color>(AppTheme.accentGreen),
+                    backgroundColor: AppTheme.primaryBlue.withValues(alpha: 0.1),
                   ),
                 ),
               ),
@@ -120,11 +136,19 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                         padding: const EdgeInsets.all(32),
                         decoration: BoxDecoration(
                           color: Colors.white,
-                          borderRadius: BorderRadius.circular(32),
-                          border: Border.all(color: theme.colorScheme.outline),
+                          borderRadius: BorderRadius.circular(28),
+                          border: Border.all(
+                            color: AppTheme.divineGold.withValues(alpha: 0.3),
+                            width: 1.5,
+                          ),
                           boxShadow: [
                             BoxShadow(
-                              color: Colors.black.withValues(alpha: 0.02),
+                              color: AppTheme.goldGlow,
+                              blurRadius: 20,
+                              offset: const Offset(0, 4),
+                            ),
+                            BoxShadow(
+                              color: Colors.black.withValues(alpha: 0.04),
                               blurRadius: 20,
                               offset: const Offset(0, 10),
                             ),
@@ -133,7 +157,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                         child: Text(
                           question.text,
                           style: theme.textTheme.headlineSmall?.copyWith(
-                            fontWeight: FontWeight.w800,
+                            fontWeight: FontWeight.w900,
                             height: 1.3,
                             color: theme.colorScheme.onSurface,
                           ),
@@ -175,21 +199,30 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                           padding: const EdgeInsets.only(bottom: 16.0),
                           child: InkWell(
                             onTap: session.hasAnswered ? null : () => ref.read(quizProvider.notifier).answerQuestion(option),
-                            borderRadius: BorderRadius.circular(20),
+                            borderRadius: BorderRadius.circular(24),
                             child: AnimatedContainer(
-                              duration: const Duration(milliseconds: 200),
-                              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
+                              duration: const Duration(milliseconds: 250),
+                              padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 20),
                               decoration: BoxDecoration(
                                 color: bgColor,
-                                borderRadius: BorderRadius.circular(20),
-                                border: Border.all(color: borderColor, width: borderWidth),
+                                borderRadius: BorderRadius.circular(24),
+                                border: Border.all(
+                                  color: borderColor.withValues(alpha: showResult ? 0.8 : 0.4), 
+                                  width: borderWidth
+                                ),
                                 boxShadow: isSelected && !showResult ? [
                                   BoxShadow(
-                                    color: theme.primaryColor.withValues(alpha: 0.1),
+                                    color: theme.primaryColor.withValues(alpha: 0.15),
+                                    blurRadius: 15,
+                                    offset: const Offset(0, 6),
+                                  )
+                                ] : [
+                                  BoxShadow(
+                                    color: Colors.black.withValues(alpha: 0.02),
                                     blurRadius: 10,
                                     offset: const Offset(0, 4),
                                   )
-                                ] : null,
+                                ],
                               ),
                               child: Row(
                                 children: [
@@ -239,23 +272,23 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                             return Container(
                               padding: const EdgeInsets.all(24),
                               decoration: BoxDecoration(
-                                color: theme.primaryColor.withValues(alpha: 0.03),
+                                color: AppTheme.celestialBlue.withValues(alpha: 0.3),
                                 borderRadius: BorderRadius.circular(24),
-                                border: Border.all(color: theme.primaryColor.withValues(alpha: 0.1)),
+                                border: Border.all(color: AppTheme.divineGold.withValues(alpha: 0.2)),
                               ),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Row(
                                     children: [
-                                      Icon(Icons.info_outline_rounded, color: theme.primaryColor, size: 20),
+                                      Icon(Icons.auto_awesome_rounded, color: AppTheme.divineGold, size: 20),
                                       const SizedBox(width: 8),
                                       Text(
-                                        'SABIA QUE?',
+                                        'REFLEXÃO BÍBLICA',
                                         style: theme.textTheme.labelLarge?.copyWith(
-                                          color: theme.primaryColor,
+                                          color: AppTheme.primaryBlue,
                                           fontWeight: FontWeight.w900,
-                                          letterSpacing: 1,
+                                          letterSpacing: 2,
                                         ),
                                       ),
                                     ],
@@ -305,9 +338,45 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                           }
                         ),
                         const SizedBox(height: 32),
-                        ElevatedButton(
-                          onPressed: () => ref.read(quizProvider.notifier).nextQuestion(),
-                          child: Text(session.isLastQuestion ? 'VER RESULTADO FINAL' : 'PRÓXIMA PERGUNTA'),
+                        Container(
+                          width: double.infinity,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(24),
+                            gradient: LinearGradient(
+                              colors: [
+                                AppTheme.primaryBlue,
+                                AppTheme.primaryBlue.withValues(alpha: 0.8),
+                              ],
+                            ),
+                            boxShadow: [
+                              BoxShadow(
+                                color: AppTheme.primaryBlue.withValues(alpha: 0.3),
+                                blurRadius: 20,
+                                offset: const Offset(0, 8),
+                              ),
+                            ],
+                          ),
+                          child: ElevatedButton(
+                            onPressed: () => ref.read(quizProvider.notifier).nextQuestion(),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.transparent,
+                              shadowColor: Colors.transparent,
+                              elevation: 0,
+                            ),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Icon(Icons.auto_awesome_rounded, color: AppTheme.divineGold, size: 20),
+                                const SizedBox(width: 12),
+                                Text(
+                                  session.isLastQuestion ? 'VER RESULTADO FINAL' : 'PRÓXIMA PERGUNTA',
+                                  style: const TextStyle(fontWeight: FontWeight.w900, letterSpacing: 1.5),
+                                ),
+                                const SizedBox(width: 12),
+                                Icon(Icons.auto_awesome_rounded, color: AppTheme.divineGold, size: 20),
+                              ],
+                            ),
+                          ),
                         ),
                       ],
                     ],
