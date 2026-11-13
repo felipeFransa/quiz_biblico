@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'package:http/http.dart' as http;
+import '../shared/constants/category_constants.dart';
 import '../shared/models/question.dart';
 
 class DatabaseService {
@@ -22,7 +23,7 @@ class DatabaseService {
     String path = join(await getDatabasesPath(), 'quiz_biblico.db');
     return await openDatabase(
       path,
-      version: 4,
+      version: 6,
       onCreate: _onCreate,
       onUpgrade: _onUpgrade,
     );
@@ -62,6 +63,16 @@ class DatabaseService {
       )
     ''');
 
+    await db.execute('''
+      CREATE TABLE answered_questions (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        question_id INTEGER NOT NULL UNIQUE,
+        is_correct INTEGER,
+        timestamp INTEGER NOT NULL,
+        FOREIGN KEY (question_id) REFERENCES questions (id)
+      )
+    ''');
+
     await _preloadQuestions(db);
     await _preloadBible(db);
   }
@@ -72,6 +83,56 @@ class DatabaseService {
       await db.delete('questions');
       await _preloadQuestions(db);
     }
+    if (oldVersion < 5) {
+      await db.execute('''
+        CREATE TABLE answered_questions (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          question_id INTEGER NOT NULL,
+          is_correct INTEGER NOT NULL,
+          timestamp INTEGER NOT NULL,
+          FOREIGN KEY (question_id) REFERENCES questions (id)
+        )
+      ''');
+    }
+    if (oldVersion < 6) {
+      await _normalizeQuestionCategories(db);
+      await _upgradeAnsweredQuestionsTable(db);
+    }
+  }
+
+  Future<void> _normalizeQuestionCategories(Database db) async {
+    for (final entry in categoryNormalization.entries) {
+      await db.update(
+        'questions',
+        {'category': entry.value},
+        where: 'category = ?',
+        whereArgs: [entry.key],
+      );
+    }
+  }
+
+  Future<void> _upgradeAnsweredQuestionsTable(Database db) async {
+    await db.execute('''
+      CREATE TABLE answered_questions_new (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        question_id INTEGER NOT NULL UNIQUE,
+        is_correct INTEGER,
+        timestamp INTEGER NOT NULL,
+        FOREIGN KEY (question_id) REFERENCES questions (id)
+      )
+    ''');
+
+    await db.execute('''
+      INSERT INTO answered_questions_new (question_id, is_correct, timestamp)
+      SELECT question_id, is_correct, MAX(timestamp)
+      FROM answered_questions
+      GROUP BY question_id
+    ''');
+
+    await db.execute('DROP TABLE answered_questions');
+    await db.execute(
+      'ALTER TABLE answered_questions_new RENAME TO answered_questions',
+    );
   }
 
   Future<void> _preloadQuestions(Database db) async {
@@ -117,16 +178,67 @@ class DatabaseService {
     }
   }
 
+  Future<int> _countUnansweredQuestions(Database db, String category) async {
+    final result = await db.rawQuery('''
+      SELECT COUNT(*) as count FROM questions
+      WHERE category = ?
+      AND id NOT IN (SELECT question_id FROM answered_questions)
+    ''', [category]);
+    return Sqflite.firstIntValue(result) ?? 0;
+  }
+
   Future<List<Question>> getQuestionsByCategory(String category, {int limit = 10}) async {
     final db = await database;
-    final List<Map<String, dynamic>> maps = await db.query(
-      'questions',
-      where: 'category = ?',
-      whereArgs: [category],
-      orderBy: 'RANDOM()',
-      limit: limit,
-    );
+    final normalizedCategory = normalizeCategory(category);
+
+    var unansweredCount = await _countUnansweredQuestions(db, normalizedCategory);
+
+    if (unansweredCount == 0) {
+      await db.rawDelete('''
+        DELETE FROM answered_questions
+        WHERE question_id IN (SELECT id FROM questions WHERE category = ?)
+      ''', [normalizedCategory]);
+      unansweredCount = await _countUnansweredQuestions(db, normalizedCategory);
+    }
+
+    final fetchLimit = unansweredCount < limit ? unansweredCount : limit;
+    if (fetchLimit == 0) return [];
+
+    final maps = await db.rawQuery('''
+      SELECT * FROM questions
+      WHERE category = ?
+      AND id NOT IN (SELECT question_id FROM answered_questions)
+      ORDER BY RANDOM()
+      LIMIT ?
+    ''', [normalizedCategory, fetchLimit]);
+
     return List.generate(maps.length, (i) => Question.fromMap(maps[i]));
+  }
+
+  Future<void> markQuestionsSeen(List<int> questionIds) async {
+    if (questionIds.isEmpty) return;
+
+    final db = await database;
+    final timestamp = DateTime.now().millisecondsSinceEpoch;
+
+    await db.transaction((txn) async {
+      for (final id in questionIds) {
+        await txn.insert('answered_questions', {
+          'question_id': id,
+          'is_correct': null,
+          'timestamp': timestamp,
+        }, conflictAlgorithm: ConflictAlgorithm.ignore);
+      }
+    });
+  }
+
+  Future<void> recordAnswer(int questionId, bool isCorrect) async {
+    final db = await database;
+    await db.insert('answered_questions', {
+      'question_id': questionId,
+      'is_correct': isCorrect ? 1 : 0,
+      'timestamp': DateTime.now().millisecondsSinceEpoch,
+    }, conflictAlgorithm: ConflictAlgorithm.replace);
   }
 
   Future<bool> syncFromApi(String url) async {
@@ -290,8 +402,38 @@ class DatabaseService {
 
   Future<List<String>> getCategories() async {
     final db = await database;
-    final List<Map<String, dynamic>> result = await db.rawQuery('SELECT DISTINCT category FROM questions');
-    return result.map((row) => row['category'] as String).toList();
+    final result = await db.rawQuery('SELECT DISTINCT category FROM questions');
+    final categories = result.map((row) => row['category'] as String).toList();
+
+    const preferredOrder = [
+      'oldTestament',
+      'newTestament',
+      'gospels',
+      'epistles',
+      'acts',
+      'genesis',
+      'exodus',
+      'psalms',
+      'prophets',
+      'revelation',
+      'characters',
+      'women',
+      'miracles',
+      'parables',
+      'geography',
+      'chronology',
+    ];
+
+    categories.sort((a, b) {
+      final indexA = preferredOrder.indexOf(a);
+      final indexB = preferredOrder.indexOf(b);
+      if (indexA == -1 && indexB == -1) return a.compareTo(b);
+      if (indexA == -1) return 1;
+      if (indexB == -1) return -1;
+      return indexA.compareTo(indexB);
+    });
+
+    return categories;
   }
 
   Future<Map<String, dynamic>> getRandomVerse() async {

@@ -12,6 +12,7 @@ class QuizSession {
   final bool hasAnswered;
   final String? inspirationVerse;
   final String? inspirationReference;
+  final bool isPartialPool;
 
   QuizSession({
     this.questions = const [],
@@ -23,6 +24,7 @@ class QuizSession {
     this.hasAnswered = false,
     this.inspirationVerse,
     this.inspirationReference,
+    this.isPartialPool = false,
   });
 
   Question? get currentQuestion => 
@@ -42,6 +44,7 @@ class QuizSession {
     bool? hasAnswered,
     String? inspirationVerse,
     String? inspirationReference,
+    bool? isPartialPool,
   }) {
     return QuizSession(
       questions: questions ?? this.questions,
@@ -53,6 +56,7 @@ class QuizSession {
       hasAnswered: hasAnswered ?? this.hasAnswered,
       inspirationVerse: inspirationVerse ?? this.inspirationVerse,
       inspirationReference: inspirationReference ?? this.inspirationReference,
+      isPartialPool: isPartialPool ?? this.isPartialPool,
     );
   }
 }

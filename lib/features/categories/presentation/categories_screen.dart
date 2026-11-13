@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../shared/providers/app_providers.dart';
+import '../../../shared/constants/category_constants.dart';
 import '../../quiz/providers/quiz_provider.dart';
 import '../../quiz/presentation/quiz_screen.dart';
 import '../../../core/theme/app_theme.dart';
@@ -12,30 +13,12 @@ class CategoriesScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
 
-    // Category visual config
-    final categoryConfig = {
-      'Antigo Testamento': {
-        'icon': Icons.history_edu_rounded,
-        'color': const Color(0xFF7B4F2E),
-        'gradient': [const Color(0xFFFDF3E7), const Color(0xFFFEEDD5)],
-        'subtitle': 'Criação, Leis e Profetas',
-      },
-      'Novo Testamento': {
-        'icon': Icons.menu_book_rounded,
-        'color': const Color(0xFF2A3175),
-        'gradient': [const Color(0xFFE8EEFF), const Color(0xFFD6DEFF)],
-        'subtitle': 'Evangelhos e Epístolas',
-      },
-    };
-
     return Scaffold(
       backgroundColor: Colors.transparent,
       body: Stack(
         children: [
-          // Celestial background
           Container(decoration: AppTheme.celestialDecoration),
 
-          // Watermark
           Positioned(
             bottom: -60,
             left: -60,
@@ -92,8 +75,9 @@ class CategoriesScreen extends ConsumerWidget {
                     sliver: SliverList(
                       delegate: SliverChildBuilderDelegate(
                         (context, index) {
-                          final cat = categories[index];
-                          final config = categoryConfig[cat] ?? {
+                          final slug = categories[index];
+                          final label = categoryLabel(slug);
+                          final config = categoryConfig[slug] ?? {
                             'icon': Icons.auto_stories_rounded,
                             'color': AppTheme.primaryBlue,
                             'gradient': [AppTheme.celestialBlue, Colors.white],
@@ -110,7 +94,7 @@ class CategoriesScreen extends ConsumerWidget {
                               child: InkWell(
                                 borderRadius: BorderRadius.circular(28),
                                 onTap: () async {
-                                  await ref.read(quizProvider.notifier).startQuiz(cat);
+                                  await ref.read(quizProvider.notifier).startQuiz(slug);
                                   if (context.mounted) {
                                     Navigator.push(context, MaterialPageRoute(builder: (context) => const QuizScreen()));
                                   }
@@ -130,7 +114,7 @@ class CategoriesScreen extends ConsumerWidget {
                                     ),
                                     boxShadow: [
                                       BoxShadow(
-                                        color: iconColor.withValues(alpha: 0.1),
+                                        color: iconColor.withValues(alpha: 0.2),
                                         blurRadius: 20,
                                         offset: const Offset(0, 8),
                                       ),
@@ -159,7 +143,7 @@ class CategoriesScreen extends ConsumerWidget {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              cat,
+                                              label,
                                               style: theme.textTheme.titleMedium?.copyWith(
                                                 fontWeight: FontWeight.w800,
                                                 color: iconColor,

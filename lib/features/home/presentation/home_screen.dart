@@ -189,7 +189,7 @@ class HomeScreen extends ConsumerWidget {
                         child: InkWell(
                           borderRadius: BorderRadius.circular(24),
                           onTap: () async {
-                            await ref.read(quizProvider.notifier).startQuiz('Antigo Testamento');
+                            await ref.read(quizProvider.notifier).startQuiz('oldTestament');
                             if (context.mounted) {
                               Navigator.push(context, MaterialPageRoute(builder: (context) => const QuizScreen()));
                             }

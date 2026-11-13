@@ -26,14 +26,16 @@ class QuizNotifier extends Notifier<QuizSession> {
     try {
       final db = ref.read(databaseServiceProvider);
       final questions = await db.getQuestionsByCategory(category);
-      
-      // Buscar versículo inspirador aleatório
-      final randomVerse = await db.getRandomVerse();
-      
+
       if (questions.isEmpty) {
         state = state.copyWith(status: QuizStatus.error);
         return;
       }
+
+      await db.markQuestionsSeen(questions.map((q) => q.id).toList());
+
+      // Buscar versículo inspirador aleatório
+      final randomVerse = await db.getRandomVerse();
 
       state = state.copyWith(
         questions: questions,
@@ -41,6 +43,7 @@ class QuizNotifier extends Notifier<QuizSession> {
         currentIndex: 0,
         score: 0,
         hasAnswered: false,
+        isPartialPool: questions.length < 10,
         inspirationVerse: randomVerse['text'],
         inspirationReference: '${randomVerse['book']} ${randomVerse['chapter']}:${randomVerse['verse']}',
       );
@@ -55,6 +58,9 @@ class QuizNotifier extends Notifier<QuizSession> {
     final question = state.currentQuestion!;
     final isCorrect = question.correctAnswer == option;
     
+    // Registrar progresso no banco de dados para evitar repetição
+    ref.read(databaseServiceProvider).recordAnswer(question.id, isCorrect);
+
     if (isCorrect) {
       ref.read(audioServiceProvider).playCorrect();
     } else {

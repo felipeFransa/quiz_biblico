@@ -111,6 +111,26 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
           Column(
             children: [
               const SizedBox(height: kToolbarHeight + 40),
+              if (session.isPartialPool)
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(24, 0, 24, 8),
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+                    decoration: BoxDecoration(
+                      color: AppTheme.divineGold.withValues(alpha: 0.12),
+                      borderRadius: BorderRadius.circular(12),
+                      border: Border.all(color: AppTheme.divineGold.withValues(alpha: 0.3)),
+                    ),
+                    child: Text(
+                      'Últimas ${session.questions.length} perguntas desta categoria',
+                      style: theme.textTheme.bodySmall?.copyWith(
+                        color: AppTheme.primaryBlue,
+                        fontWeight: FontWeight.w600,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                ),
               // Styled Progress Bar
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 8),

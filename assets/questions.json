@@ -9,7 +9,7 @@
       "Abraão",
       "Davi"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Gênesis 6:14",
     "explanation": "Noé foi instruído por Deus a construir uma arca para salvar sua família e os animais do dilúvio."
@@ -24,7 +24,7 @@
       "Levítico",
       "Mateus"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Gênesis 1:1",
     "explanation": "Gênesis é o livro das origens, narrando a criação do mundo e do homem."
@@ -39,7 +39,7 @@
       "Sansão",
       "Salomão"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Juízes 13-16",
     "explanation": "Sansão era um juiz de Israel conhecido por sua força sobrenatural dada por Deus."
@@ -54,7 +54,7 @@
       "Judá",
       "Rúben"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Gênesis 37:28",
     "explanation": "Os irmãos de José tinham inveja dele e o venderam para mercadores ismaelitas."
@@ -69,7 +69,7 @@
       "Josué",
       "Elias"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Êxodo 20",
     "explanation": "Deus chamou Moisés ao topo do monte para entregar as tábuas da Lei."
@@ -84,7 +84,7 @@
       "Davi",
       "Sansão"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "1 Samuel 17",
     "explanation": "O jovem pastor Davi usou uma funda e uma pedra para derrubar o campeão filisteu."
@@ -99,7 +99,7 @@
       "7",
       "40"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Mateus 10:1",
     "explanation": "Jesus escolheu doze homens para serem Seus apóstolos e mensageiros."
@@ -114,7 +114,7 @@
       "Judas Iscariotes",
       "Tomé"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Mateus 26:15",
     "explanation": "Judas Iscariotes foi o discípulo que entregou Jesus aos líderes religiosos."
@@ -129,7 +129,7 @@
       "Belém",
       "Cafarnaum"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Mateus 2:1",
     "explanation": "Jesus nasceu em Belém da Judéia, cumprindo as profecias."
@@ -144,7 +144,7 @@
       "Tiago",
       "André"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Mateus 3:13",
     "explanation": "João Batista chamava o povo ao arrependimento e batizou o Salvador."
@@ -159,7 +159,7 @@
       "Judas Iscariotes",
       "João"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Mateus 26:75",
     "explanation": "Pedro negou conhecer Jesus antes do galo cantar, como Jesus previra."
@@ -174,7 +174,7 @@
       "Paulo",
       "João"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Atos - Filemom",
     "explanation": "O apóstolo Paulo escreveu cartas às igrejas para instruí-las na fé."
@@ -189,7 +189,7 @@
       "Adão",
       "Enoque"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "Gênesis 2:7",
     "explanation": "Deus formou Adão do pó da terra e soprou em suas narinas o fôlego da vida."
@@ -204,7 +204,7 @@
       "Raquel",
       "Miriã"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "Ester 2:17",
     "explanation": "Ester foi escolhida pelo rei Assuero e salvou seu povo do extermínio."
@@ -219,7 +219,7 @@
       "Davi",
       "Ezequias"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "1 Reis 3",
     "explanation": "Salomão pediu sabedoria a Deus para governar bem o Seu povo."
@@ -234,7 +234,7 @@
       "Daniel",
       "Amós"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "Jonas 1:17",
     "explanation": "Jonas tentou fugir de Deus e foi engolido, ficando três dias no peixe."
@@ -249,7 +249,7 @@
       "Jônatas",
       "Abner"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "medium",
     "reference": "1 Samuel 18:1",
     "explanation": "Jônatas, filho de Saul, amava a Davi como à sua própria alma."
@@ -264,7 +264,7 @@
       "Transformar água em vinho",
       "Multiplicação"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "João 2:1-11",
     "explanation": "Jesus transformou água em vinho de excelente qualidade em um casamento em Caná."
@@ -279,7 +279,7 @@
       "12 pães e 4 peixes",
       "3 pães e 2 peixes"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "Mateus 14:17",
     "explanation": "Com apenas cinco pães e dois peixes, Jesus alimentou cerca de cinco mil homens."
@@ -294,7 +294,7 @@
       "Estevão",
       "Eutico"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "João 11",
     "explanation": "Jesus chamou Lázaro para fora do túmulo e ele reviveu."
@@ -309,7 +309,7 @@
       "Jogou sal na água",
       "Remou mais forte"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "Marcos 4:39",
     "explanation": "Jesus disse: 'Cala-te, emudece!', e houve grande bonança."
@@ -324,7 +324,7 @@
       "Elias",
       "Enoque"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "2 Reis 2:11",
     "explanation": "Elias foi transladado sem ver a morte, na presença de Eliseu."
@@ -339,7 +339,7 @@
       "Jeremias",
       "Malaquias"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Ezequiel 1",
     "explanation": "Ezequiel teve visões da glória de Deus enquanto estava no exílio na Babilônia."
@@ -354,7 +354,7 @@
       "Daniel",
       "Amós"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "easy",
     "reference": "Daniel 6",
     "explanation": "Daniel foi protegido por um anjo porque permaneceu fiel a Deus."
@@ -369,7 +369,7 @@
       "Dalila",
       "Sara"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Josué 2",
     "explanation": "Raabe creu no Deus de Israel e salvou sua família escondendo os mensageiros."
@@ -384,7 +384,7 @@
       "Ana",
       "Rute"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "Juízes 4",
     "explanation": "Débora julgava Israel debaixo de uma palmeira e liderou o exército com Baraque."
@@ -399,7 +399,7 @@
       "Raquel",
       "Isabel"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "1 Samuel 1",
     "explanation": "Ana era estéril e orou fervorosamente até que Deus lhe deu um filho."
@@ -414,7 +414,7 @@
       "Correu e o abraçou",
       "Ficou indiferente"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "easy",
     "reference": "Lucas 15:20",
     "explanation": "O pai recebeu o filho arrependido com misericórdia e festa."
@@ -429,7 +429,7 @@
       "O Samaritano",
       "Inimigo"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "easy",
     "reference": "Lucas 10:33",
     "explanation": "O samaritano mostrou verdadeira vizinhança cuidando do homem ferido."
@@ -444,7 +444,7 @@
       "Uva",
       "Oliva"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "easy",
     "reference": "Mateus 13:31",
     "explanation": "O grão de mostarda é pequeno, mas cresce e se torna a maior das hortaliças."
@@ -459,7 +459,7 @@
       "Gideão",
       "Arão"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Josué 1",
     "explanation": "Josué liderou o povo na conquista da Terra Prometida após a morte de Moisés."
@@ -474,7 +474,7 @@
       "Saraiva (Granizo)",
       "Pestilência"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "hard",
     "reference": "Êxodo 9:23",
     "explanation": "Deus enviou trovões e saraiva, e fogo que descia à terra."
@@ -489,7 +489,7 @@
       "7",
       "12"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Josué 6:4",
     "explanation": "No sétimo dia rodearam a cidade sete vezes, e os muros caíram."
@@ -504,7 +504,7 @@
       "Samuel",
       "Esdras"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "medium",
     "reference": "1 Samuel 3",
     "explanation": "Eli era o sacerdote que ensinou Samuel a ouvir a voz de Deus."
@@ -519,7 +519,7 @@
       "Mar da Galiléia",
       "Mar Grande"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Êxodo 14:21",
     "explanation": "Sob o comando de Deus, Moisés estendeu a mão e o mar se dividiu."
@@ -534,7 +534,7 @@
       "Babilônia",
       "Nínive"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Josué 6",
     "explanation": "Pelo toque das trombetas e o grito do povo, os muros de Jericó caíram."
@@ -549,7 +549,7 @@
       "Éfeso",
       "Corinto"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Atos 9:3",
     "explanation": "Saulo estava no caminho de Damasco quando foi confrontado por Jesus."
@@ -564,7 +564,7 @@
       "Nicodemos",
       "Bartimeu"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Lucas 19:4",
     "explanation": "Zaqueu era pequeno e subiu na árvore para ver o Mestre."
@@ -579,7 +579,7 @@
       "Roma",
       "Nazaré"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Atos 11:26",
     "explanation": "Foi em Antioquia que o termo 'cristão' começou a ser usado."
@@ -594,7 +594,7 @@
       "Atos dos Apóstolos",
       "Apocalipse"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Atos 1:1",
     "explanation": "Atos descreve a descida do Espírito Santo e a expansão do Evangelho."
@@ -609,7 +609,7 @@
       "Setenta vezes sete",
       "100 vezes"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Mateus 18:22",
     "explanation": "Jesus ensinou que o perdão deve ser ilimitado."
@@ -624,7 +624,7 @@
       "André",
       "Filipe"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Mateus 9:9",
     "explanation": "Levi (Mateus) deixou a coletoria para seguir Jesus."
@@ -639,7 +639,7 @@
       "Maria Madalena",
       "Tiago"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "João 20:14",
     "explanation": "Maria Madalena foi ao sepulcro e Jesus lhe apareceu primeiro."
@@ -654,7 +654,7 @@
       "Jacó",
       "José"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "Gênesis 21:3",
     "explanation": "Isaque foi o filho da promessa, nascido quando Abraão tinha 100 anos."
@@ -669,7 +669,7 @@
       "Esaú",
       "Caim"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "Gênesis 25:34",
     "explanation": "Esaú desprezou sua primogenitura vendendo-a para seu irmão Jacó."
@@ -684,7 +684,7 @@
       "José",
       "Arão"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "Gênesis 41:16",
     "explanation": "Deus deu a José a capacidade de interpretar as sete vacas gordas e magras."
@@ -699,7 +699,7 @@
       "Agripa",
       "Félix"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "medium",
     "reference": "Mateus 14:8",
     "explanation": "Herodes Antipas mandou decapitar João a pedido da filha de Herodias."
@@ -714,7 +714,7 @@
       "Isaías",
       "Jeremias"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "medium",
     "reference": "1 Reis 18",
     "explanation": "Elias provou que o Senhor é o único Deus verdadeiro ao descer fogo do céu."
@@ -729,7 +729,7 @@
       "Multiplicação",
       "Cura do coxo"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "Mateus 14:25",
     "explanation": "Jesus foi ter com os discípulos caminhando por cima das águas."
@@ -744,7 +744,7 @@
       "Vai e não peques mais",
       "Creia em Deus"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "Marcos 2:5",
     "explanation": "Jesus viu a fé deles e primeiro curou a alma do homem."
@@ -759,7 +759,7 @@
       "Apenas a palavra",
       "Uma oração"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "João 9:6",
     "explanation": "Jesus cuspiu na terra, fez lodo e untou os olhos do cego."
@@ -774,7 +774,7 @@
       "Saiu água da rocha",
       "A rocha falou"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "Êxodo 17:6",
     "explanation": "Deus proveu água para o povo sedento no deserto por meio da rocha."
@@ -789,7 +789,7 @@
       "A morte dos primogênitos",
       "Rãs"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "Êxodo 12:12",
     "explanation": "A décima e última praga convenceu o Faraó a deixar o povo partir."
@@ -804,7 +804,7 @@
       "Isaías",
       "Daniel"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Isaías 53",
     "explanation": "Isaías profetizou detalhadamente o sacrifício de Cristo séculos antes."
@@ -819,7 +819,7 @@
       "Jeremias",
       "João Batista"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "easy",
     "reference": "1 Samuel 3",
     "explanation": "Samuel ouviu a voz de Deus chamando seu nome durante a noite."
@@ -834,7 +834,7 @@
       "Jeremias",
       "Hoseas"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "hard",
     "reference": "Jeremias 25:11",
     "explanation": "Jeremias profetizou o tempo exato do cativeiro na Babilônia."
@@ -849,7 +849,7 @@
       "Sara",
       "Ester"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "Lucas 7:37-38",
     "explanation": "Ela demonstrou grande amor e foi perdoada por sua profunda fé."
@@ -864,7 +864,7 @@
       "Lídia",
       "Miriã"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Juízes 4:4",
     "explanation": "Débora era profetisa e julgava o povo em Israel."
@@ -879,7 +879,7 @@
       "Orfa",
       "Raquel"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Rute 1:16",
     "explanation": "Rute permaneceu fiel à sua sogra Naomi e se tornou antepassada de Davi."
@@ -894,7 +894,7 @@
       "Enterrou na terra",
       "Deu aos pobres"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Mateus 25:25",
     "explanation": "O servo teve medo e não multiplicou o que lhe foi confiado."
@@ -909,7 +909,7 @@
       "Economizar azeite",
       "Dormir cedo"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Mateus 25:1-13",
     "explanation": "Devemos estar vigilantes e preparados para a vinda do Noivo."
@@ -924,7 +924,7 @@
       "João Batista",
       "Moisés"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "João 14:6",
     "explanation": "Jesus declarou ser o único caminho para o Pai."
@@ -939,7 +939,7 @@
       "Barnabé",
       "Timóteo"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "medium",
     "reference": "Atos 13:2",
     "explanation": "O Espírito Santo separou Barnabé e Saulo para a obra missionária."
@@ -954,7 +954,7 @@
       "Morte dos primogênitos",
       "Úlceras"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "Êxodo 12",
     "explanation": "A morte dos primogênitos forçou o Faraó a libertar os hebreus."
@@ -969,7 +969,7 @@
       "Rebeca",
       "Lia"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Gênesis 17:15",
     "explanation": "Sara foi a mãe de Isaque e companheira fiel de Abraão."
@@ -984,7 +984,7 @@
       "12",
       "3"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Êxodo 7-12",
     "explanation": "Deus enviou dez pragas para convencer o Faraó a libertar o povo israelita."
@@ -999,7 +999,7 @@
       "Saul",
       "Samuel"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "1 Samuel 10",
     "explanation": "Saul foi ungido por Samuel como o primeiro rei de Israel."
@@ -1014,7 +1014,7 @@
       "Mar da Galiléia",
       "Mar Grande"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Êxodo 14",
     "explanation": "Moisés estendeu o cajado e Deus abriu o Mar Vermelho para o povo passar."
@@ -1029,7 +1029,7 @@
       "Jeremias",
       "Amós"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "medium",
     "reference": "2 Reis 2",
     "explanation": "Eliseu pediu uma porção dobrada do espírito de Elias e continuou seu ministério."
@@ -1044,7 +1044,7 @@
       "Pela voz de um anjo",
       "Em uma nuvem"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Êxodo 3",
     "explanation": "Deus falou com Moisés do meio de uma sarça que ardia mas não se consumia."
@@ -1059,7 +1059,7 @@
       "João",
       "Tiago"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Apocalipse 1:1",
     "explanation": "O apóstolo João recebeu as visões de Apocalipse enquanto estava na ilha de Patmos."
@@ -1074,7 +1074,7 @@
       "Jericó",
       "Samaria"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Mateus 4:13",
     "explanation": "Cafarnaum tornou-se a 'Sua cidade' durante o ministério na Galiléia."
@@ -1089,7 +1089,7 @@
       "Félix",
       "César"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Mateus 27:2",
     "explanation": "Pilatos cedeu à pressão da multidão e entregou Jesus para ser crucificado."
@@ -1104,7 +1104,7 @@
       "Oliveiras",
       "Gólgota"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Mateus 26:36",
     "explanation": "No Jardim do Getsêmani, Jesus angustiou-se e orou ao Pai antes da traição."
@@ -1119,7 +1119,7 @@
       "Estevão",
       "Paulo"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Atos 7",
     "explanation": "Estevão foi apedrejado por sua fé após testemunhar perante o Sinédrio."
@@ -1134,7 +1134,7 @@
       "Davi",
       "Moisés"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "Hebreus 11:8",
     "explanation": "Abraão creu em Deus e isso lhe foi imputado como justiça, sendo chamado pai de muitas nações."
@@ -1149,7 +1149,7 @@
       "Matusalém",
       "Noé"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "medium",
     "reference": "Gênesis 5:27",
     "explanation": "Matusalém viveu quase mil anos antes de falecer próximo ao dilúvio."
@@ -1164,7 +1164,7 @@
       "Pedro",
       "André"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "Mateus 14:29",
     "explanation": "Pedro saiu do barco a convite de Jesus e caminhou sobre as águas até sentir medo."
@@ -1179,7 +1179,7 @@
       "Isaac",
       "Judá"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "Gênesis 32:28",
     "explanation": "Deus mudou seu nome para Israel, porque lutou com Deus e com os homens e prevaleceu."
@@ -1194,7 +1194,7 @@
       "Cerca de 5000 homens",
       "12000 pessoas"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "Marcos 6:44",
     "explanation": "Além dos cinco mil homens, havia também mulheres e crianças."
@@ -1209,7 +1209,7 @@
       "A orelha foi curada",
       "Nada aconteceu"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "Lucas 22:51",
     "explanation": "Mesmo ao ser preso, Jesus demonstrou compaixão curando Malco."
@@ -1224,7 +1224,7 @@
       "Multiplicação de peixes",
       "Curou a viúva"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "1 Reis 17:14",
     "explanation": "Deus prometeu que a farinha da panela e o azeite da botija não faltariam."
@@ -1239,7 +1239,7 @@
       "Jonas",
       "Joel"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Jonas 4:9",
     "explanation": "Deus usou a planta para ensinar Jonas sobre compaixão por Nínive."
@@ -1254,7 +1254,7 @@
       "Ezequiel",
       "Daniel"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Jeremias 18",
     "explanation": "Deus usou a imagem do barro nas mãos do oleiro para ilustrar Seu poder sobre Israel."
@@ -1269,7 +1269,7 @@
       "Oseias",
       "Mardoqueu"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "hard",
     "reference": "Oseias 1",
     "explanation": "A vida familiar de Oseias serviu como uma profecia viva do amor perdoador de Deus."
@@ -1284,7 +1284,7 @@
       "Marta",
       "Joana"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "João 12:3",
     "explanation": "Maria ungiu Jesus com um bálsamo muito caro em sinal de adoração."
@@ -1299,7 +1299,7 @@
       "Jezabel",
       "Atalia"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Juízes 16",
     "explanation": "Dalila foi paga pelos filisteus para seduzir e trair Sansão."
@@ -1314,7 +1314,7 @@
       "Lídia",
       "Tabita"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "Atos 16:14",
     "explanation": "Lídia era uma mulher de negócios piedosa que abriu sua casa para os apóstolos."
@@ -1329,7 +1329,7 @@
       "As aves",
       "Cuidados e riquezas do mundo"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Mateus 13:22",
     "explanation": "As preocupações da vida e a sedução das riquezas sufocam a Palavra."
@@ -1344,7 +1344,7 @@
       "Os pobres e aleijados",
       "Os fariseus"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Lucas 14:13",
     "explanation": "Jesus ensinou a humildade e a caridade sem esperar nada em troca."
@@ -1359,7 +1359,7 @@
       "Trabalha muito",
       "Fica com dívidas"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "easy",
     "reference": "Mateus 13:46",
     "explanation": "O Reino dos Céus é tão valioso que vale a pena abrir mão de tudo por ele."
@@ -1374,7 +1374,7 @@
       "Davi",
       "Natã"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "2 Samuel 12:24",
     "explanation": "Davi e Bate-Seba foram os pais do rei Salomão."
@@ -1389,7 +1389,7 @@
       "12",
       "40"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Gênesis 49",
     "explanation": "As doze tribos originaram-se dos doze filhos de Jacó."
@@ -1404,7 +1404,7 @@
       "Daniel",
       "Esdras"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "medium",
     "reference": "Daniel 5",
     "explanation": "Daniel interpretou as palavras MENE MENE TEQUEL PARSIM para o rei Belsazar."
@@ -1419,7 +1419,7 @@
       "Sodoma",
       "Jericó"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Gênesis 19",
     "explanation": "Deus destruiu Sodoma e Gomorra, poupando apenas Ló e suas filhas."
@@ -1434,7 +1434,7 @@
       "3 João",
       "Obadias"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "hard",
     "reference": "Cânon Bíblico",
     "explanation": "2 João possui apenas 13 versículos, sendo o mais curto em extensão de texto original."
@@ -1449,7 +1449,7 @@
       "Lucas",
       "Timóteo"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Atos 15:40",
     "explanation": "Paulo escolheu Silas para segui-lo através da Síria e Cilícia."
@@ -1464,7 +1464,7 @@
       "Barnabé",
       "Filipe"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Atos 20:9",
     "explanation": "O jovem Eutico adormeceu e caiu do terceiro andar, mas Paulo o ressuscitou."
@@ -1479,7 +1479,7 @@
       "Tiago",
       "André"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "João 21:20",
     "explanation": "João frequentemente se referia a si mesmo como o discípulo a quem Jesus amava em seu Evangelho."
@@ -1494,7 +1494,7 @@
       "Anás",
       "Nicodemos"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "hard",
     "reference": "Atos 22:3",
     "explanation": "Paulo foi instruído rigorosamente aos pés do doutor Gamaliel em Jerusalém."
@@ -1509,7 +1509,7 @@
       "Rebeca",
       "Raquel"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "Gênesis 16:15",
     "explanation": "Agar era a serva egípcia de Sara e se tornou mãe de Ismael."
@@ -1524,7 +1524,7 @@
       "Manassés",
       "Saul"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "medium",
     "reference": "2 Reis 19:35",
     "explanation": "O anjo do Senhor matou 185 mil soldados assírios em uma única noite."
@@ -1539,7 +1539,7 @@
       "Matias",
       "Justo"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "hard",
     "reference": "Atos 1:26",
     "explanation": "A sorte caiu sobre Matias, e ele foi contado com os onze apóstolos."
@@ -1554,7 +1554,7 @@
       "Ele passou a enxergar",
       "Ele gritou de dor"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "João 9",
     "explanation": "Jesus enviou o homem ao tanque de Siloé para lavar-se e ele voltou vendo."
@@ -1569,7 +1569,7 @@
       "Deu aos pobres",
       "Comprou comida"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "Mateus 17:27",
     "explanation": "Jesus instruiu Pedro a pescar para pagar o imposto por ambos."
@@ -1584,7 +1584,7 @@
       "Por sorteio",
       "Por idade"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "Juízes 7",
     "explanation": "Apenas os trezentos que lamberam a água como cães foram escolhidos."
@@ -1599,7 +1599,7 @@
       "Isaías",
       "Jeremias"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "easy",
     "reference": "1 Reis 17:6",
     "explanation": "Os corvos traziam pão e carne a Elias pela manhã e à tarde no ribeiro de Querite."
@@ -1614,7 +1614,7 @@
       "Jeremias",
       "Isaías"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Ezequiel 37",
     "explanation": "Esta visão de Ezequiel simbolizava a restauração futura de Israel."
@@ -1629,7 +1629,7 @@
       "Obadias",
       "Naum"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "hard",
     "reference": "Obadias 1",
     "explanation": "Obadias é o livro mais curto do Antigo Testamento."
@@ -1644,7 +1644,7 @@
       "A esposa de Ló",
       "Uma serva"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Gênesis 19:26",
     "explanation": "Ela olhou para trás contra o aviso do anjo e foi julgada."
@@ -1659,7 +1659,7 @@
       "Isabel",
       "Eunice"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "Lucas 1:13",
     "explanation": "Isabel, prima de Maria, era estéril e idosa quando Deus prometeu João."
@@ -1674,7 +1674,7 @@
       "Rute",
       "Ester"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Rute 1:16",
     "explanation": "Rute demonstrou lealdade extraordinária à sua sogra."
@@ -1689,7 +1689,7 @@
       "O inimigo",
       "A chuva"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Mateus 13:25",
     "explanation": "O inimigo veio de noite e semeou o joio no meio do trigo."
@@ -1704,7 +1704,7 @@
       "O pastor é punido",
       "Com alegria no céu"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "easy",
     "reference": "Lucas 15:7",
     "explanation": "Há grande alegria no céu por um pecador que se arrepende."
@@ -1719,7 +1719,7 @@
       "Dez leis",
       "A família de Jesus"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Mateus 25",
     "explanation": "As virgens representam aqueles que professam esperar por Cristo."
@@ -1734,7 +1734,7 @@
       "Rio Jordão",
       "Rio Tigre"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Josué 3",
     "explanation": "Deus parou o fluxo do Rio Jordão para que o povo cruzasse para a Terra Prometida."
@@ -1749,7 +1749,7 @@
       "Abinadabe",
       "Samá"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "medium",
     "reference": "1 Samuel 16:11",
     "explanation": "Davi era o mais novo e estava cuidando das ovelhas quando foi ungido."
@@ -1764,7 +1764,7 @@
       "40 anos",
       "100 anos"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Números 14:33",
     "explanation": "Israel vagou por quarenta anos até que a geração incrédula passasse."
@@ -1779,7 +1779,7 @@
       "Estevão",
       "Tiago"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Atos 7:56",
     "explanation": "Estevão viu o Filho do Homem em pé à direita de Deus."
@@ -1794,7 +1794,7 @@
       "Félix",
       "Júlio"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Atos 10",
     "explanation": "Cornélio foi o primeiro gentio a aceitar o Evangelho com sua família."
@@ -1809,7 +1809,7 @@
       "Efésios",
       "Colossenses"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Efésios 6:11",
     "explanation": "Paulo instrui os crentes a vestirem toda a armadura de Deus para resistirem ao mal."
@@ -1824,7 +1824,7 @@
       "Paulo",
       "Barnabé"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "2 Timóteo 1",
     "explanation": "Paulo considerava Timóteo como seu verdadeiro filho na fé."
@@ -1839,7 +1839,7 @@
       "Arão",
       "Hur"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "Êxodo 28",
     "explanation": "Arão falava por Moisés e liderava o serviço sacerdotal no tabernáculo."
@@ -1854,7 +1854,7 @@
       "Saul foi seu marido",
       "Salomão foi seu marido"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "medium",
     "reference": "1 Reis 21:25",
     "explanation": "Ninguém houve como Acabe, que se vendeu para fazer o que era mau, instigado por Jezabel."
@@ -1869,7 +1869,7 @@
       "Porcos andaram na água",
       "Os porcos falaram"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "Marcos 5",
     "explanation": "Jesus expulsou os demônios que pediram para entrar nos porcos."
@@ -1884,7 +1884,7 @@
       "Saiu fogo",
       "A água virou sangue"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "Êxodo 15:25",
     "explanation": "Deus mostrou a Moisés como purificar a fonte de água para o povo."
@@ -1899,7 +1899,7 @@
       "A água secou",
       "Chamou um anjo"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "2 Reis 6:6",
     "explanation": "Eliseu cortou um pau, lançou-o na água e fez flutuar o ferro do machado."
@@ -1914,7 +1914,7 @@
       "Habacuque",
       "Zacarias"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "hard",
     "reference": "Amós 7:14",
     "explanation": "Amós era um boiadeiro e colhedor de sicômoros antes do chamado divino."
@@ -1929,7 +1929,7 @@
       "Miquéias",
       "Malaquias"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Miquéias 5:2",
     "explanation": "Miquéias indicou precisamente a pequena cidade de Belém Efrata."
@@ -1944,7 +1944,7 @@
       "Ana",
       "Miriã"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "Lucas 2:36",
     "explanation": "Ana era uma viúva de 84 anos que não se afastava do templo."
@@ -1959,7 +1959,7 @@
       "Safira",
       "Drusila"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "Atos 5",
     "explanation": "Safira e seu marido Ananias caíram mortos por tentarem enganar a Deus."
@@ -1974,7 +1974,7 @@
       "Rainha Jezabel",
       "Rainha de Nínive"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "1 Reis 10",
     "explanation": "A Rainha de Sabá ficou maravilhada com tudo o que viu em Israel."
@@ -1989,7 +1989,7 @@
       "O Publicano",
       "Nenhum"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Lucas 18:14",
     "explanation": "O publicano se humilhou reconhecendo seu pecado, enquanto o fariseu se exaltou."
@@ -2004,7 +2004,7 @@
       "Não esconder a nossa luz",
       "Subir no monte"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "easy",
     "reference": "Mateus 5:15",
     "explanation": "Ninguém acende uma luz para escondê-la, mas para que ilumine a todos."
@@ -2019,7 +2019,7 @@
       "Alfai",
       "Jonas"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Mateus 4:21",
     "explanation": "Eles deixaram o pai Zebedeu no barco com os empregados para seguir Jesus."
@@ -2034,7 +2034,7 @@
       "Torre de Babel",
       "Torre de Siquém"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Gênesis 11",
     "explanation": "Deus confundiu a língua dos homens em Babel para impedir a construção."
@@ -2049,7 +2049,7 @@
       "Monte Ararat",
       "Monte Hermom"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "medium",
     "reference": "Gênesis 8:4",
     "explanation": "A arca repousou no sétimo mês sobre os montes de Ararat."
@@ -2064,7 +2064,7 @@
       "5 pedras lisas",
       "7 pedras"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "medium",
     "reference": "1 Samuel 17:40",
     "explanation": "Davi escolheu cinco pedras, embora tenha usado apenas uma para derrubar o gigante."
@@ -2079,7 +2079,7 @@
       "Abdenego",
       "Jeremias"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "medium",
     "reference": "Daniel 3:12",
     "explanation": "Sadraque, Mesaque e Abdenego foram preservados miraculosamente no fogo."
@@ -2094,7 +2094,7 @@
       "Elias",
       "Gade"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "1 Samuel",
     "explanation": "Samuel foi o último juiz e o profeta que inaugurou a monarquia em Israel."
@@ -2109,7 +2109,7 @@
       "Jesus",
       "Moisés"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "Marcos 10:46",
     "explanation": "Jesus ouviu o grito de Bartimeu e o curou por sua fé."
@@ -2124,7 +2124,7 @@
       "Os peixes pularam fora",
       "O barco afundou"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "Lucas 5:6",
     "explanation": "Eles não tinham pescado nada a noite toda, mas sob a palavra de Jesus pegaram muitos peixes."
@@ -2139,7 +2139,7 @@
       "Lia",
       "Sara"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "medium",
     "reference": "Gênesis 24",
     "explanation": "Rebeca foi encontrada pelo servo de Abraão junto a um poço."
@@ -2154,7 +2154,7 @@
       "Jefté",
       "Samgar"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "medium",
     "reference": "Juízes 6:11",
     "explanation": "O Anjo do Senhor chamou Gideão de 'varão valoroso'."
@@ -2169,7 +2169,7 @@
       "Jeremias ajudou",
       "Amós ajudou"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "hard",
     "reference": "2 Reis 4",
     "explanation": "Eliseu multiplicou o azeite da viúva para que ela pagasse suas dívidas."
@@ -2184,7 +2184,7 @@
       "Atalia",
       "Herodias"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "1 Reis 19:2",
     "explanation": "Jezabel jurou matar Elias após ele derrotar os profetas de Baal."
@@ -2199,7 +2199,7 @@
       "O filho mais novo",
       "O servo"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "easy",
     "reference": "Lucas 15",
     "explanation": "O filho mais novo pediu sua herança e a desperdiçou em terras longínquas."
@@ -2214,7 +2214,7 @@
       "Criação do Sol",
       "Queda do homem"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Gênesis 9:13",
     "explanation": "Deus colocou o arco-íris nas nuvens como sinal de que nunca mais inundaria a Terra."
@@ -2229,7 +2229,7 @@
       "Maria",
       "Ana"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Lucas 1:38",
     "explanation": "Maria submeteu-se humildemente à vontade de Deus ao saber que seria mãe de Jesus."
@@ -2244,7 +2244,7 @@
       "Isaías",
       "Malaquias"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "easy",
     "reference": "Cânon AT",
     "explanation": "Malaquias encerra os livros proféticos do Antigo Testamento com promessas sobre Elias."
@@ -2259,7 +2259,7 @@
       "Dário",
       "Ciro"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "medium",
     "reference": "Daniel 5",
     "explanation": "Uma mão misteriosa escreveu na parede, e Daniel interpretou como o fim do reino de Belsazar."
@@ -2274,7 +2274,7 @@
       "100 anos",
       "120 anos"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "medium",
     "reference": "Gênesis 21:5",
     "explanation": "Deus cumpriu Sua promessa a Abraão no tempo da sua velhice."
@@ -2289,7 +2289,7 @@
       "Rute",
       "Débora"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "hard",
     "reference": "2 Reis 11:2",
     "explanation": "Jeoseba, filha do rei Jorão, preservou a linhagem de Davi escondendo o futuro rei."
@@ -2304,7 +2304,7 @@
       "Simão",
       "Levi"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "Lucas 1:13",
     "explanation": "Zacarias era um sacerdote que ficou mudo até o nascimento de seu filho João."
@@ -2319,7 +2319,7 @@
       "Estevão",
       "Filipe"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "hard",
     "reference": "Atos 12:2",
     "explanation": "Herodes mandou matar Tiago à espada para agradar os líderes judeus."
@@ -2334,7 +2334,7 @@
       "Durante a noite",
       "Pelos servos"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Mateus 13:30",
     "explanation": "O dono da terra ordenou esperar até a colheita para não arrancar o trigo junto com o joio."
@@ -2349,7 +2349,7 @@
       "Mel e ervas",
       "Apenas água"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Lucas 10:34",
     "explanation": "Ele derramou azeite e vinho, ligou as feridas e levou o homem para uma estalagem."
@@ -2364,7 +2364,7 @@
       "Mar da Galiléia",
       "Mar Grande"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "Mateus 8:24",
     "explanation": "Jesus dormia no barco quando os discípulos O acordaram temendo a morte."
@@ -2379,7 +2379,7 @@
       "13 vezes",
       "14 vezes"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "hard",
     "reference": "Josué 6",
     "explanation": "Uma vez por dia durante seis dias, e sete vezes no sétimo dia (6 + 7 = 13)."
@@ -2394,7 +2394,7 @@
       "Isaías",
       "Natã"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "1 Reis 19:16",
     "explanation": "Elias lançou sua capa sobre Eliseu enquanto este arava o campo."
@@ -2409,7 +2409,7 @@
       "Esposa de Ló",
       "Dalila"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Gênesis 19:26",
     "explanation": "Ela desobedeceu a ordem divina durante a fuga de Sodoma."
@@ -2424,7 +2424,7 @@
       "Estevão",
       "Cornélio"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "João 11",
     "explanation": "Lázaro era irmão de Marta e Maria e amigo querido de Jesus."
@@ -2439,7 +2439,7 @@
       "Curou a cegueira",
       "Multiplicou comida"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "Mateus 8:14",
     "explanation": "Jesus tocou na mão dela, a febre a deixou e ela passou a servi-los."
@@ -2454,7 +2454,7 @@
       "Miqueias",
       "Zacarias"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Isaías 7:14",
     "explanation": "Isaías disse: 'Eis que a virgem conceberá e dará à luz um filho'."
@@ -2469,7 +2469,7 @@
       "O maligno que tira a palavra",
       "A falta de tempo"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Mateus 13:19",
     "explanation": "As aves representam o diabo que rouba a semente do coração endurecido."
@@ -2484,7 +2484,7 @@
       "Ana",
       "Rute"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "Juízes 5",
     "explanation": "Débora e Baraque celebraram a derrota de Sísera e do exército cananeu."
@@ -2499,7 +2499,7 @@
       "Templo",
       "Betânia"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "easy",
     "reference": "João 19:17",
     "explanation": "Gólgota em aramaico significa 'Lugar da Caveira'."
@@ -2514,7 +2514,7 @@
       "Isaías",
       "Jeremias"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Isaías 6:1",
     "explanation": "Isaías teve essa visão no ano em que morreu o rei Uzias."
@@ -2529,7 +2529,7 @@
       "Um saco de ouro",
       "Não menciona moedas, mas um anel e festa"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Lucas 15:22",
     "explanation": "O pai deu-lhe a melhor roupa, um anel no dedo e sandálias nos pés."
@@ -2544,7 +2544,7 @@
       "Ezequias",
       "Saul"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "hard",
     "reference": "2 Reis 21:26",
     "explanation": "Amom foi assassinado por seus oficiais, e o povo coroou Josias em seu lugar."
@@ -2559,7 +2559,7 @@
       "Multiplicação",
       "Cura da cegueira"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "João 4:50",
     "explanation": "Jesus disse: 'Vai, o teu filho vive', e a criança foi curada naquela mesma hora."
@@ -2574,7 +2574,7 @@
       "Rute",
       "Sara"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Rute 1:16",
     "explanation": "Rute demonstrou sua fidelidade inabalável a sua sogra Noemi."
@@ -2589,7 +2589,7 @@
       "Daniel",
       "Amós"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Jeremias 38:6",
     "explanation": "O profeta chorão sofreu perseguição constante dos líderes de Jerusalém."
@@ -2604,7 +2604,7 @@
       "Pedro",
       "João"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Atos 10:11",
     "explanation": "Deus usou essa visão para mostrar a Pedro que o Evangelho também era para os gentios."
@@ -2619,7 +2619,7 @@
       "Mil pratas",
       "Cinquenta talentos"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "hard",
     "reference": "Mateus 18:24",
     "explanation": "Era uma dívida astronômica e impagável, simbolizando nossa dívida com Deus."
@@ -2634,7 +2634,7 @@
       "Diná",
       "Bila"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "Gênesis 34",
     "explanation": "Diná era filha de Jacó e Lia, e o incidente com Siquém levou à vingança de Simeão e Levi."
@@ -2649,7 +2649,7 @@
       "Joel",
       "Malaquias"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Oseias 1:2",
     "explanation": "Seu casamento simbolizava a infidelidade de Israel para com Deus."
@@ -2664,7 +2664,7 @@
       "Saul",
       "Senaqueribe"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "1 Samuel 18:11",
     "explanation": "Saul tinha inveja do sucesso de Davi e tentou cravá-lo na parede."
@@ -2679,7 +2679,7 @@
       "Ouçam minha voz",
       "Silêncio!"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "Marcos 4:39",
     "explanation": "Apenas por Sua palavra, o vento e o mar se acalmaram imediatamente."
@@ -2694,7 +2694,7 @@
       "Muitos outros presos",
       "Eram apenas os dois"
     ],
-    "category": "Novo Testamento",
+    "category": "newTestament",
     "difficulty": "medium",
     "reference": "Atos 16:25",
     "explanation": "Enquanto Paulo e Silas oravam e cantavam, os outros presos os ouviam."
@@ -2709,7 +2709,7 @@
       "Um rei",
       "Um trabalhador de campo"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Mateus 13:45",
     "explanation": "O mercador buscava boas pérolas e, ao achar uma preciosa, vendeu tudo o que tinha."
@@ -2724,7 +2724,7 @@
       "Rute",
       "Orfa"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Rute 4:13",
     "explanation": "Desta união nasceu Obede, avô do rei Davi."
@@ -2739,7 +2739,7 @@
       "Elias",
       "Isaías"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "easy",
     "reference": "2 Reis 2:11",
     "explanation": "Elias foi arrebatado sem passar pela morte terrena comum."
@@ -2754,7 +2754,7 @@
       "Zaqueu",
       "Nicodemos"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "Marcos 5",
     "explanation": "Ele vivia nos sepulcros e ninguém conseguia prendê-lo com correntes."
@@ -2769,7 +2769,7 @@
       "Gamaliel",
       "Pilatos"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "medium",
     "reference": "Mateus 26:57",
     "explanation": "Jesus foi levado inicialmente à casa de Caifás, onde o Sinédrio se reuniu."
@@ -2784,7 +2784,7 @@
       "Cinco",
       "Doze"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "1 Samuel 17:49",
     "explanation": "Embora tenha pego cinco no ribeiro, a primeira pedra foi suficiente."
@@ -2799,7 +2799,7 @@
       "Multiplicação",
       "Cura de leproso"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "easy",
     "reference": "João 2:11",
     "explanation": "Este foi o princípio dos Seus milagres, manifestando Sua glória."
@@ -2814,7 +2814,7 @@
       "Miquéias",
       "Oseias"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Jeremias 1",
     "explanation": "Ele é conhecido como o 'profeta das lamentações' pela queda de Jerusalém."
@@ -2829,7 +2829,7 @@
       "Sara",
       "Raquel"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Gênesis 18:12",
     "explanation": "Sara riu dentro de si ao ouvir que teria um filho aos 90 anos."
@@ -2844,7 +2844,7 @@
       "O mestre da lei",
       "Um soldado"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Lucas 10:31",
     "explanation": "O sacerdote passou pelo outro lado, seguido depois pelo levita."
@@ -2859,7 +2859,7 @@
       "Saiu água pura",
       "Cura de leprosos próximos"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "hard",
     "reference": "2 Reis 13:21",
     "explanation": "Mesmo após a morte, o poder de Deus manifestou-se através dos ossos do profeta."
@@ -2874,7 +2874,7 @@
       "Saul",
       "Natã"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "1 Samuel 1",
     "explanation": "Eli era o sumo sacerdote em Siló que criou Samuel no templo."
@@ -2889,7 +2889,7 @@
       "Rute",
       "Débora"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "easy",
     "reference": "Ester 7",
     "explanation": "A coragem de Ester impediu o massacre planejado contra seu povo."
@@ -2904,7 +2904,7 @@
       "Transformou pedras em pão",
       "Chuva de maná"
     ],
-    "category": "Milagres",
+    "category": "miracles",
     "difficulty": "medium",
     "reference": "Mateus 15:32-38",
     "explanation": "Diferente da multiplicação para cinco mil, nesta foram usados sete pães."
@@ -2919,7 +2919,7 @@
       "Isaías",
       "Daniel"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "medium",
     "reference": "Isaías 53",
     "explanation": "Esta é uma das profecias messiânicas mais vívidas do Antigo Testamento."
@@ -2934,7 +2934,7 @@
       "Marta",
       "Isabel"
     ],
-    "category": "Mulheres da Bíblia",
+    "category": "women",
     "difficulty": "medium",
     "reference": "João 12:3",
     "explanation": "Ela enxugou os pés de Jesus com seus próprios cabelos em um ato de devoção."
@@ -2949,7 +2949,7 @@
       "São jogados fora",
       "São vendidos"
     ],
-    "category": "Parábolas",
+    "category": "parables",
     "difficulty": "medium",
     "reference": "Mateus 13:48",
     "explanation": "A parábola simboliza a separação final entre justos e injustos no fim dos tempos."
@@ -2964,7 +2964,7 @@
       "Abner",
       "Davi"
     ],
-    "category": "Personagens",
+    "category": "characters",
     "difficulty": "easy",
     "reference": "2 Samuel 2:4",
     "explanation": "Davi foi ungido rei sobre a casa de Judá primeiro, e depois sobre todo Israel."
@@ -2979,7 +2979,7 @@
       "Monte Nebo",
       "Monte das Oliveiras"
     ],
-    "category": "Antigo Testamento",
+    "category": "oldTestament",
     "difficulty": "easy",
     "reference": "Êxodo 20",
     "explanation": "O monte Sinai estremeceu quando Deus desceu sobre ele em fogo."
@@ -2994,7 +2994,7 @@
       "Isaías",
       "Ezequiel"
     ],
-    "category": "Profetas",
+    "category": "prophets",
     "difficulty": "easy",
     "reference": "Ezequiel 37",
     "explanation": "Deus perguntou a Ezequiel se aqueles ossos poderiam reviver."
